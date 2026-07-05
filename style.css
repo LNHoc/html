@@ -3,7 +3,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    color: #1a202c;
+    color: #2d3748;
 }
 
 header {
@@ -44,6 +44,22 @@ h1 {
 
 p {
     line-height: 1.8; 
+    color: #4a5568;         
+    margin-bottom: 20px;     
+}
+
+footer p {
+    color: #e2e8f0;
+    margin-bottom: 0;
+}
+
+
+p.highlight {
+    background-color: #ebf8ff; 
+    border-left: 4px solid #3182ce; 
+    padding: 15px;            
+    border-radius: 4px;       
+    color: #2b6cb0;            
 }
 
 nav a, nav a:link, nav a:visited {
